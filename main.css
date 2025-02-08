@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kalnia:wght@100..700&family=Playball&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    @apply bg-yellow-100
+}
+
+body{
+    @apply bg-white tracking-wider max-w-[1920px] mx-auto;
+}
+
+.nav-link{
+    @apply text-xl font-bold duration-300
+}
+
+.nav-link:hover,.active{
+    @apply text-firstcolor;
+}

@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--~~~~~~~~~~~~~~~~~~~ FAVICON ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
 
     <!--~~~~~~~~~~~~~~~~~~~ REMIX ICON ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
 
     <!--~~~~~~~~~~~~~~~~~~~ SWIPER ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
@@ -14,56 +19,117 @@
 
     <title>Ice Crean Website</title>
   </head>
+
   <body>
     <!--~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <header id="navbar">
+    <header id="navbar" class="bg-white top-0 left-0 z-10 w-full">
+      <nav class="container flex items-center justify-between h-16">
+        <!-- hamburger -->
+        <div class="text-xl cursor-pointer sm:text-2xl lg:hidden">
+          <i class="ri-menu-4-line" id="hamburger"></i>
+        </div>
 
+        <!-- logo -->
+        <img src="assets/images/logo.png" alt="logo" class="w-28 md:w-40" />
+
+        <!-- menu items -->
+        <div
+          id="nav-menu"
+          class="bg-white absolute top-0 left-[-100%] min-h-[80vh] w-full border-b border-emerald-800 px-5 duration-500 ease-out overflow-hidden z-20 md:px-10 md:w-1/2 lg:static lg:border-0 lg:min-h-fit lg:bg-transparent lg:w-auto"
+        >
+          <ul class="flex flex-col items-start gap-8 pt-20 lg:pt-0 lg:flex-row">
+            <li>
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li>
+              <a href="#shop" class="nav-link">Shop</a>
+            </li>
+            <li>
+              <a href="#ingredients" class="nav-link">Ingredients</a>
+            </li>
+            <li>
+              <a href="#blogs" class="nav-link">Blogs</a>
+            </li>
+          </ul>
+
+          <!-- close icon -->
+          <div
+            class="text-xl absolute top-5 right-5 cursor-pointer sm:text-2xl lg:hidden"
+            id="closeicon"
+          >
+            <i class="ri-close-large-line"></i>
+          </div>
+
+          <!-- search and user icon -->
+          <div
+            class="text-xl flex gap-8 items-center cursor-pointer pt-20 sm:text-2xl lg:hidden"
+          >
+            <i class="ri-search-line"></i>
+            <i class="ri-user-line"></i>
+
+            <!-- heart logo -->
+            <div class="relative sm:text-2xl">
+              <i class="ri-heart-line"></i>
+              <span
+                class="absolute top-0 left-4 font-bold text-xs bg-firstcolor text-white w-5 h-5 rounded-full grid place-items-center"
+                >0</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- search and user icon -->
+        <div class="text-xl flex gap-8 items-center cursor-pointer">
+          <i class="ri-search-line hidden lg:block"></i>
+          <i class="ri-user-line hidden lg:block"></i>
+
+          <!-- heart logo -->
+          <div class="relative hidden lg:block">
+            <i class="ri-heart-line"></i>
+            <span
+              class="absolute top-0 left-4 font-bold text-xs bg-firstcolor text-white w-5 h-5 rounded-full grid place-items-center"
+              >0</span
+            >
+          </div>
+
+          <!-- shopping cart logo -->
+          <div class="relative">
+            <i class="ri-shopping-cart-line"></i>
+            <span
+              class="absolute top-0 left-4 font-bold text-xs bg-firstcolor text-white w-5 h-5 rounded-full grid place-items-center"
+              >0</span
+            >
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--~~~~~~~~~~~~~~~~~~~ HERO ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="home">
-
-    </section>
+    <section id="home" ></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ FEATURED-INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section>
-
-    </section>
+    <section></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ PROMO ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section>
-
-    </section>
+    <section></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ SHOP ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="shop">
-
-    </section>
+    <section id="shop"></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ SEASONAL-PROMO ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section>
-        
-    </section>
+    <section></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ INGREDIENTS ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="ingredients">
-
-    </section>
+    <section id="ingredients"></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ FLAVOR-INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section>
-
-    </section>
+    <section></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ BLOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="blogs">
-
-    </section>
+    <section id="blogs"></section>
 
     <!--~~~~~~~~~~~~~~~~~~~ NEWSLETTER ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <!--~~~~~~~~~~~~~~~~~~~ SCROLL UP ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
@@ -73,6 +139,5 @@
 
     <!--~~~~~~~~~~~~~~~~~~~ MAIN.JS ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <script src="main.js"></script>
-
   </body>
 </html>
