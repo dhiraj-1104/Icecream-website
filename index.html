@@ -354,7 +354,9 @@
           alt="seasonal-promo image"
           class="w-full hover:scale-110 duration-700"
         />
-        <div class="absolute top-0 left-1/2 text-center transform -translate-x-1/2 pointer-events-none">
+        <div
+          class="absolute top-0 left-1/2 text-center transform -translate-x-1/2 pointer-events-none"
+        >
           <h2 class="lowercase text-white font-Playball">hello</h2>
           <h2 class="uppercase text-white">Summer!</h2>
         </div>
@@ -368,27 +370,189 @@
         />
         <div class="absolute top-1/2 left-1/4 pointer-events-none">
           <div>
-            <img src="assets/images/scalloped.svg" alt="scalloped image" class="w-24 lg:w-32"/>
-            <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-Playball text-white text-3xl lg:text-4xl">-32%</p>
+            <img
+              src="assets/images/scalloped.svg"
+              alt="scalloped image"
+              class="w-24 lg:w-32"
+            />
+            <p
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-Playball text-white text-3xl lg:text-4xl"
+            >
+              -32%
+            </p>
           </div>
         </div>
       </div>
 
-      <div  class="relative overflow-hidden">
+      <div class="relative overflow-hidden">
         <img
           src="assets/images/seasonal-promo_3.png"
           alt="seasonal-promo image"
           class="w-full hover:scale-110 duration-700"
         />
-        <div class="absolute bottom-10 left-1/2 text-center transform -translate-x-1/2 pointer-events-none">
-          <h2 class="uppercase text-white ">creamy</h2>
+        <div
+          class="absolute bottom-10 left-1/2 text-center transform -translate-x-1/2 pointer-events-none"
+        >
+          <h2 class="uppercase text-white">creamy</h2>
           <h2 class="lowercase text-white font-Playball">enjoy</h2>
         </div>
       </div>
     </section>
 
     <!--~~~~~~~~~~~~~~~~~~~ INGREDIENTS ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="ingredients"></section>
+    <section id="ingredients" class="bg-emerald-800 text-white py-20">
+      <div class="text-center pb-20 md:pb-32">
+        <h4 class="text-firstcolor">Savory Ingredients</h4>
+        <h2 class="text-white">Assorted Ingredients</h2>
+      </div>
+
+      <div class="container grid grid-cols-1 sm:grid-cols-2 gap-10 lg:px-40">
+        <!-- left side -->
+        <div class="flex flex-col gap-10 lg:gap-20">
+          <!-- item 1 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img
+              src="assets/images/vanilla.png"
+              alt="vanilla image"
+              class="w-28"
+            />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Vanilla</h3>
+              <p>
+                Vanilla ice cream is a classic frozen dessert made with cream,
+                sugar, and vanilla flavoring, often derived from vanilla beans
+                or extract. It has a smooth, creamy texture and a rich yet mild
+                flavor, making it a popular base for various toppings and
+                desserts.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img src="assets/images/mango.png" alt="mango image" class="w-28" />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Mongo</h3>
+              <p>
+                Mango ice cream is a tropical-flavored frozen dessert made with
+                cream, sugar, and ripe mango puree or flavoring. It has a
+                smooth, creamy texture with a sweet and tangy taste, capturing
+                the essence of fresh mangoes.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 3 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img src="assets/images/taro.png" alt="taro image" class="w-28" />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Taro</h3>
+              <p>
+                Taro ice cream is a creamy, purple-hued frozen dessert made with
+                taro root, cream, and sugar. It has a smooth texture and a
+                subtly sweet, nutty, and vanilla-like flavor, making it a unique
+                and popular choice in many Asian desserts.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 4 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img
+              src="assets/images/coconut.png"
+              alt="coconut image"
+              class="w-28"
+            />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Coconut</h3>
+              <p>
+                Coconut ice cream is a rich and creamy frozen dessert made with
+                coconut milk, cream, and sugar. It has a smooth texture and a
+                naturally sweet, tropical flavor with a hint of nuttiness,
+                making it a refreshing treat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- right side -->
+        <div class="flex flex-col gap-10 lg:gap-20">
+          <!-- item 5 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img src="assets/images/cocoa.png" alt="cocoa image" class="w-28" />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Cocoa</h3>
+              <p>
+                Cocoa ice cream is a rich and creamy frozen dessert made with
+                cocoa powder, cream, and sugar. It has a smooth texture and a
+                deep, chocolatey flavor, offering a perfect balance of sweetness
+                and indulgence.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 6 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img
+              src="assets/images/strawberry.png"
+              alt="strawberry image"
+              class="w-28"
+            />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Strawberry</h3>
+              <p>
+                Strawberry ice cream is a sweet and creamy frozen dessert made
+                with real strawberries, cream, and sugar. It has a smooth
+                texture with a refreshing, fruity flavor and a natural pink hue,
+                making it a classic favorite.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 7 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img
+              src="assets/images/green_tea.png"
+              alt="green_tea image"
+              class="w-28"
+            />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Green tea</h3>
+              <p>
+                Green tea ice cream is a creamy frozen dessert infused with
+                matcha, a finely ground green tea powder. It has a smooth
+                texture and a slightly earthy, bittersweet flavor, offering a
+                refreshing and unique taste.
+              </p>
+            </div>
+          </div>
+
+          <!-- item 8 -->
+          <div class="flex flex-col items-center text-center gap-3 md:flex-row md:items-start md:text-start md:gap-5 lg:max-w-sm xl:max-w-lg">
+            <img
+              src="assets/images/orange.png"
+              alt="orange image"
+              class="w-28"
+            />
+
+            <div class="space-y-3">
+              <h3 class="text-center">Orange</h3>
+              <p>
+                Orange ice cream is a creamy frozen dessert made with fresh
+                orange juice or zest, cream, and sugar. It has a smooth texture
+                with a bright, citrusy flavor that is both refreshing and sweet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--~~~~~~~~~~~~~~~~~~~ FLAVOR-INFO ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section></section>
