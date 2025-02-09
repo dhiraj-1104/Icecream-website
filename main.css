@@ -43,3 +43,9 @@ p{
 .nav-link:hover,.active{
     @apply text-firstcolor;
 }
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    @apply text-firstcolor font-bold;
+    font-size: 40px !important;
+}
