@@ -82,18 +82,29 @@ activeLink = () => {
     }
   });
 
-  navLink.forEach(item => {
-    item.classList.remove('active')
+  navLink.forEach((item) => {
+    item.classList.remove("active");
 
-    if(item.href.includes(current)){
-      item.classList.add('active')
+    if (item.href.includes(current)) {
+      item.classList.add("active");
     }
-  })
-
+  });
 };
 
 window.addEventListener("scroll", activeLink);
 
 // <!--~~~~~~~~~~~~~~~~~~~ CHANGE BACKGROUND HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+scrollHeader = () => {
+  const navBar = document.getElementById("navbar");
+
+  if (this.scrollY >= 200) {
+    navBar.classList.add("myboxshadow");
+  }else{
+    navBar.classList.remove("myboxshadow")
+  }
+};
+
+window.addEventListener("scroll", scrollHeader);
 
 // <!--~~~~~~~~~~~~~~~~~~~ SCROLL REVEAL ANIMATION ~~~~~~~~~~~~~~~~~~~~~~~~~~-->

@@ -10,6 +10,9 @@ module.exports = {
         cardcolor_3: "#FFEDBA",
         cardcolor_4: "#EAD6C0"
       },
+      boxShadow: {
+        "myboxshadow": 'rgba(0,0,0,0.15) 1.95px 1.95px 2.6px'
+      },
       container: {
         center: true,
         padding: {
