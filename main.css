@@ -49,3 +49,11 @@ p{
     @apply text-firstcolor font-bold;
     font-size: 40px !important;
 }
+
+.flavor_item img{
+    @apply duration-300
+}
+
+.flavor_item :hover img{
+    @apply scale-110
+}
