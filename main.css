@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 html{
-    @apply bg-yellow-100 scroll-smooth;
+    @apply bg-yellow-100 scroll-smooth overflow-x-hidden;
 }
 
 body{
-    @apply bg-white tracking-wider max-w-[1920px] mx-auto;
+    @apply bg-white tracking-wider max-w-[1920px] mx-auto overflow-x-hidden;
 }
 
 h1, h2{

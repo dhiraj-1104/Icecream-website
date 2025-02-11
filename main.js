@@ -100,11 +100,35 @@ scrollHeader = () => {
 
   if (this.scrollY >= 200) {
     navBar.classList.add("myboxshadow");
-  }else{
-    navBar.classList.remove("myboxshadow")
+  } else {
+    navBar.classList.remove("myboxshadow");
   }
 };
 
 window.addEventListener("scroll", scrollHeader);
 
 // <!--~~~~~~~~~~~~~~~~~~~ SCROLL REVEAL ANIMATION ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 1500,
+  delay: 300,
+  reset: false,
+});
+
+sr.reveal(`.hero_top,.ingredients_top, .blog_top, .blog_btn,.newsletter`);
+sr.reveal(`.hero_image,.promo_image`, { scale: 0.5 });
+sr.reveal(`.hero_outline_1, .hero_outline_2`, { scale: 0.5, distance: "opx", delay:1000 });
+sr.reveal(`.hero_leaf_1,.hero_leaf_2`, { origin:"right" ,delay:1500 });
+sr.reveal(`.hero_leaf_3`, { origin:"left" ,delay:1500 });
+sr.reveal(`.hero_leaf_4`, { origin:"bottom" ,delay:1500 });
+
+sr.reveal(`.feature_left, .promo_content`, { origin:"left" });
+sr.reveal(`.feature_right`, { origin:"right" });
+sr.reveal(`.ingredients_item_right`, { origin:"right" , interval: 100});
+sr.reveal(`.ingredients_item_left`, { origin:"left", interval: 100 });
+
+sr.reveal(`.flavor_item, .blog_item`, { interval:100});
+
+
+
