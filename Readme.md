@@ -2,22 +2,19 @@
 
 A modern and visually appealing Ice Cream website landing page built with **Tailwind CSS**. This project showcases a responsive design with smooth animations and a delightful user experience.
 
-## 🚀 Live Demo
-[Click here to view the live site](#) *(Replace with actual URL)*
-
 ## 📸 Screenshot
 Here’s a preview of the website:
 
 <img src="assets/images/ss1.png" alt="Website Screenshot"/>
-
+<br/>
 <img src="assets/images/ss2.png" alt="Website Screenshot"/>
-
+<br/>
 <img src="assets/images/ss3.png" alt="Website Screenshot"/>
-
+<br/>
 <img src="assets/images/ss4.png" alt="Website Screenshot"/>
-
+<br/>
 <img src="assets/images/ss5.png" alt="Website Screenshot"/>
-
+<br/>
 <img src="assets/images/ss6.png" alt="Website Screenshot"/>
 
 
@@ -56,7 +53,7 @@ To set up and run this project locally, follow these steps:
 
 ---
 
-👨‍💻 **Developed by [DHIRAJ CHAVAN](https://github.com/dhiaj-1104)**
+👨‍💻 **Developed by [DHIRAJ CHAVAN](https://github.com/dhiraj-1104)**
 
 Happy coding! 🎉🍦
 
